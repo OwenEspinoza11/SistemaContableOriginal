@@ -28,65 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("Caja");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Instituciones Bancarias");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Inversiones Disponibles Para La Venta");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Documentos Por Cobrar");
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Inversiones Mantenidas Hasta El Vencimiento");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Inventario");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Activo Corriente", new System.Windows.Forms.TreeNode[] {
-            treeNode32,
-            treeNode33,
-            treeNode34,
-            treeNode35,
-            treeNode36,
-            treeNode37});
-            System.Windows.Forms.TreeNode treeNode39 = new System.Windows.Forms.TreeNode("Edificios");
-            System.Windows.Forms.TreeNode treeNode40 = new System.Windows.Forms.TreeNode("Vehiculos");
-            System.Windows.Forms.TreeNode treeNode41 = new System.Windows.Forms.TreeNode("Maquinaria");
-            System.Windows.Forms.TreeNode treeNode42 = new System.Windows.Forms.TreeNode("Planta y equipo");
-            System.Windows.Forms.TreeNode treeNode43 = new System.Windows.Forms.TreeNode("Inversiones De Largo Plazo");
-            System.Windows.Forms.TreeNode treeNode44 = new System.Windows.Forms.TreeNode("Otros Activos");
-            System.Windows.Forms.TreeNode treeNode45 = new System.Windows.Forms.TreeNode("Activo Diferido");
-            System.Windows.Forms.TreeNode treeNode46 = new System.Windows.Forms.TreeNode("Activo No Corriente", new System.Windows.Forms.TreeNode[] {
-            treeNode39,
-            treeNode40,
-            treeNode41,
-            treeNode42,
-            treeNode43,
-            treeNode44,
-            treeNode45});
-            System.Windows.Forms.TreeNode treeNode47 = new System.Windows.Forms.TreeNode("Activo", new System.Windows.Forms.TreeNode[] {
-            treeNode38,
-            treeNode46});
-            System.Windows.Forms.TreeNode treeNode48 = new System.Windows.Forms.TreeNode("Documentos Por Pagar");
-            System.Windows.Forms.TreeNode treeNode49 = new System.Windows.Forms.TreeNode("Cuentas Por Pagar");
-            System.Windows.Forms.TreeNode treeNode50 = new System.Windows.Forms.TreeNode("Otros Pasivos");
-            System.Windows.Forms.TreeNode treeNode51 = new System.Windows.Forms.TreeNode("Pasivo Corriente", new System.Windows.Forms.TreeNode[] {
-            treeNode48,
-            treeNode49,
-            treeNode50});
-            System.Windows.Forms.TreeNode treeNode52 = new System.Windows.Forms.TreeNode("Documentos Por Pagar Relacionados");
-            System.Windows.Forms.TreeNode treeNode53 = new System.Windows.Forms.TreeNode("Documentos Por Pagar a Bancos");
-            System.Windows.Forms.TreeNode treeNode54 = new System.Windows.Forms.TreeNode("Otros Pasivos No corrientes");
-            System.Windows.Forms.TreeNode treeNode55 = new System.Windows.Forms.TreeNode("Pasivo No Corriente", new System.Windows.Forms.TreeNode[] {
-            treeNode52,
-            treeNode53,
-            treeNode54});
-            System.Windows.Forms.TreeNode treeNode56 = new System.Windows.Forms.TreeNode("Pasivo", new System.Windows.Forms.TreeNode[] {
-            treeNode51,
-            treeNode55});
-            System.Windows.Forms.TreeNode treeNode57 = new System.Windows.Forms.TreeNode("Capital");
-            System.Windows.Forms.TreeNode treeNode58 = new System.Windows.Forms.TreeNode("Reserva Legal");
-            System.Windows.Forms.TreeNode treeNode59 = new System.Windows.Forms.TreeNode("Reserva Facultativa");
-            System.Windows.Forms.TreeNode treeNode60 = new System.Windows.Forms.TreeNode("Utilidad Acumulada");
-            System.Windows.Forms.TreeNode treeNode61 = new System.Windows.Forms.TreeNode("Utilidades Del Ejercicio");
-            System.Windows.Forms.TreeNode treeNode62 = new System.Windows.Forms.TreeNode("Patrimonio", new System.Windows.Forms.TreeNode[] {
-            treeNode57,
-            treeNode58,
-            treeNode59,
-            treeNode60,
-            treeNode61});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Caja");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Instituciones Bancarias");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Inversiones Disponibles Para La Venta");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Documentos Por Cobrar");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Inversiones Mantenidas Hasta El Vencimiento");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Inventario");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Activo Corriente", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6});
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Edificios");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Vehiculos");
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Maquinaria");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Planta y equipo");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Inversiones De Largo Plazo");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Otros Activos");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Activo Diferido");
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Activo No Corriente", new System.Windows.Forms.TreeNode[] {
+            treeNode8,
+            treeNode9,
+            treeNode10,
+            treeNode11,
+            treeNode12,
+            treeNode13,
+            treeNode14});
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Activo", new System.Windows.Forms.TreeNode[] {
+            treeNode7,
+            treeNode15});
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Documentos Por Pagar");
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Cuentas Por Pagar");
+            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Otros Pasivos");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Pasivo Corriente", new System.Windows.Forms.TreeNode[] {
+            treeNode17,
+            treeNode18,
+            treeNode19});
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Documentos Por Pagar Relacionados");
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Documentos Por Pagar a Bancos");
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Otros Pasivos No corrientes");
+            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Pasivo No Corriente", new System.Windows.Forms.TreeNode[] {
+            treeNode21,
+            treeNode22,
+            treeNode23});
+            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Pasivo", new System.Windows.Forms.TreeNode[] {
+            treeNode20,
+            treeNode24});
+            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Capital");
+            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Reserva Legal");
+            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Reserva Facultativa");
+            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Utilidad Acumulada");
+            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("Utilidades Del Ejercicio");
+            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Patrimonio", new System.Windows.Forms.TreeNode[] {
+            treeNode26,
+            treeNode27,
+            treeNode28,
+            treeNode29,
+            treeNode30});
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.treeView2 = new System.Windows.Forms.TreeView();
             this.treeView3 = new System.Windows.Forms.TreeView();
@@ -137,40 +137,40 @@
             // 
             this.treeView1.Location = new System.Drawing.Point(28, 46);
             this.treeView1.Name = "treeView1";
-            treeNode32.Name = "Nodo2";
-            treeNode32.Text = "Caja";
-            treeNode33.Name = "Nodo3";
-            treeNode33.Text = "Instituciones Bancarias";
-            treeNode34.Name = "Nodo4";
-            treeNode34.Text = "Inversiones Disponibles Para La Venta";
-            treeNode35.Name = "Nodo5";
-            treeNode35.Text = "Documentos Por Cobrar";
-            treeNode36.Name = "Nodo6";
-            treeNode36.Text = "Inversiones Mantenidas Hasta El Vencimiento";
-            treeNode37.Name = "Nodo7";
-            treeNode37.Text = "Inventario";
-            treeNode38.Name = "Nodo1";
-            treeNode38.Text = "Activo Corriente";
-            treeNode39.Name = "Nodo9";
-            treeNode39.Text = "Edificios";
-            treeNode40.Name = "Nodo10";
-            treeNode40.Text = "Vehiculos";
-            treeNode41.Name = "Nodo11";
-            treeNode41.Text = "Maquinaria";
-            treeNode42.Name = "Nodo12";
-            treeNode42.Text = "Planta y equipo";
-            treeNode43.Name = "Nodo13";
-            treeNode43.Text = "Inversiones De Largo Plazo";
-            treeNode44.Name = "Nodo14";
-            treeNode44.Text = "Otros Activos";
-            treeNode45.Name = "Nodo15";
-            treeNode45.Text = "Activo Diferido";
-            treeNode46.Name = "Nodo8";
-            treeNode46.Text = "Activo No Corriente";
-            treeNode47.Name = "Nodo0";
-            treeNode47.Text = "Activo";
+            treeNode1.Name = "Nodo2";
+            treeNode1.Text = "Caja";
+            treeNode2.Name = "Nodo3";
+            treeNode2.Text = "Instituciones Bancarias";
+            treeNode3.Name = "Nodo4";
+            treeNode3.Text = "Inversiones Disponibles Para La Venta";
+            treeNode4.Name = "Nodo5";
+            treeNode4.Text = "Documentos Por Cobrar";
+            treeNode5.Name = "Nodo6";
+            treeNode5.Text = "Inversiones Mantenidas Hasta El Vencimiento";
+            treeNode6.Name = "Nodo7";
+            treeNode6.Text = "Inventario";
+            treeNode7.Name = "Nodo1";
+            treeNode7.Text = "Activo Corriente";
+            treeNode8.Name = "Nodo9";
+            treeNode8.Text = "Edificios";
+            treeNode9.Name = "Nodo10";
+            treeNode9.Text = "Vehiculos";
+            treeNode10.Name = "Nodo11";
+            treeNode10.Text = "Maquinaria";
+            treeNode11.Name = "Nodo12";
+            treeNode11.Text = "Planta y equipo";
+            treeNode12.Name = "Nodo13";
+            treeNode12.Text = "Inversiones De Largo Plazo";
+            treeNode13.Name = "Nodo14";
+            treeNode13.Text = "Otros Activos";
+            treeNode14.Name = "Nodo15";
+            treeNode14.Text = "Activo Diferido";
+            treeNode15.Name = "Nodo8";
+            treeNode15.Text = "Activo No Corriente";
+            treeNode16.Name = "Nodo0";
+            treeNode16.Text = "Activo";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode47});
+            treeNode16});
             this.treeView1.Size = new System.Drawing.Size(308, 156);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
@@ -179,26 +179,26 @@
             // 
             this.treeView2.Location = new System.Drawing.Point(392, 46);
             this.treeView2.Name = "treeView2";
-            treeNode48.Name = "Nodo2";
-            treeNode48.Text = "Documentos Por Pagar";
-            treeNode49.Name = "Nodo3";
-            treeNode49.Text = "Cuentas Por Pagar";
-            treeNode50.Name = "Nodo4";
-            treeNode50.Text = "Otros Pasivos";
-            treeNode51.Name = "Nodo1";
-            treeNode51.Text = "Pasivo Corriente";
-            treeNode52.Name = "Nodo6";
-            treeNode52.Text = "Documentos Por Pagar Relacionados";
-            treeNode53.Name = "Nodo7";
-            treeNode53.Text = "Documentos Por Pagar a Bancos";
-            treeNode54.Name = "Nodo8";
-            treeNode54.Text = "Otros Pasivos No corrientes";
-            treeNode55.Name = "Nodo5";
-            treeNode55.Text = "Pasivo No Corriente";
-            treeNode56.Name = "Nodo0";
-            treeNode56.Text = "Pasivo";
+            treeNode17.Name = "Nodo2";
+            treeNode17.Text = "Documentos Por Pagar";
+            treeNode18.Name = "Nodo3";
+            treeNode18.Text = "Cuentas Por Pagar";
+            treeNode19.Name = "Nodo4";
+            treeNode19.Text = "Otros Pasivos";
+            treeNode20.Name = "Nodo1";
+            treeNode20.Text = "Pasivo Corriente";
+            treeNode21.Name = "Nodo6";
+            treeNode21.Text = "Documentos Por Pagar Relacionados";
+            treeNode22.Name = "Nodo7";
+            treeNode22.Text = "Documentos Por Pagar a Bancos";
+            treeNode23.Name = "Nodo8";
+            treeNode23.Text = "Otros Pasivos No corrientes";
+            treeNode24.Name = "Nodo5";
+            treeNode24.Text = "Pasivo No Corriente";
+            treeNode25.Name = "Nodo0";
+            treeNode25.Text = "Pasivo";
             this.treeView2.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode56});
+            treeNode25});
             this.treeView2.Size = new System.Drawing.Size(352, 156);
             this.treeView2.TabIndex = 1;
             this.treeView2.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView2_AfterSelect);
@@ -207,20 +207,20 @@
             // 
             this.treeView3.Location = new System.Drawing.Point(795, 46);
             this.treeView3.Name = "treeView3";
-            treeNode57.Name = "Nodo1";
-            treeNode57.Text = "Capital";
-            treeNode58.Name = "Nodo2";
-            treeNode58.Text = "Reserva Legal";
-            treeNode59.Name = "Nodo3";
-            treeNode59.Text = "Reserva Facultativa";
-            treeNode60.Name = "Nodo4";
-            treeNode60.Text = "Utilidad Acumulada";
-            treeNode61.Name = "Nodo5";
-            treeNode61.Text = "Utilidades Del Ejercicio";
-            treeNode62.Name = "Nodo0";
-            treeNode62.Text = "Patrimonio";
+            treeNode26.Name = "Nodo1";
+            treeNode26.Text = "Capital";
+            treeNode27.Name = "Nodo2";
+            treeNode27.Text = "Reserva Legal";
+            treeNode28.Name = "Nodo3";
+            treeNode28.Text = "Reserva Facultativa";
+            treeNode29.Name = "Nodo4";
+            treeNode29.Text = "Utilidad Acumulada";
+            treeNode30.Name = "Nodo5";
+            treeNode30.Text = "Utilidades Del Ejercicio";
+            treeNode31.Name = "Nodo0";
+            treeNode31.Text = "Patrimonio";
             this.treeView3.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode62});
+            treeNode31});
             this.treeView3.Size = new System.Drawing.Size(352, 156);
             this.treeView3.TabIndex = 2;
             this.treeView3.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView3_AfterSelect);

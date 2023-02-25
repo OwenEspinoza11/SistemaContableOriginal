@@ -30,12 +30,23 @@ namespace SistemaContableOriginal
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-           
 
-            if (treeView1.SelectedNode.Text.Equals("")) {
+
+            if (treeView1.SelectedNode.Text == "")
+            {
                 MessageBox.Show("Seleccione una opcion");
                 treeView1.Focus();
-            }else {
+            }
+            else if (activarActivos.Checked == false)
+            {
+                MessageBox.Show("Active los activos para avanzar", "Aviso");
+            }
+            else if (maskedTextBox1.Text == "")
+            {
+                MessageBox.Show("Ingrese el valor del activo para continuar");
+            }
+            else
+            {
 
                 if (treeView1.SelectedNode.Text.Equals("Caja"))
                 {
@@ -188,10 +199,19 @@ namespace SistemaContableOriginal
         {
 
             /*Pasivos*/
-            if (treeView2.SelectedNode.Text.Equals(""))
+
+            if (btnActivarPasivos.Checked == false)
             {
-                MessageBox.Show("Seleccione una opcion");
+                MessageBox.Show("Active los pasivos para avanzar", "Aviso");
+            }
+            else if (treeView2.SelectedNode.Text == "")
+            {
+                MessageBox.Show("Seleccione una opcion", "Aviso");
                 treeView2.Focus();
+            }
+            else if (campoMontoPasivos.Text == "")
+            {
+                MessageBox.Show("Ingrese el valor del pasivo para continuar");
             }
             else
             {
@@ -262,12 +282,21 @@ namespace SistemaContableOriginal
 
         private void btnAddCap_Click(object sender, EventArgs e)
         {
-            if (treeView3.SelectedNode.Text.Equals(""))
+            if (treeView3.SelectedNode.Text == "")
             {
                 MessageBox.Show("Seleccione una opcion");
                 treeView3.Focus();
             }
-            else {
+            else if (btnActCapital.Checked == false)
+            {
+                MessageBox.Show("Active el capital para avanzar", "Aviso");
+            }
+            else if (campoMontoCapital.Text == "")
+            {
+                MessageBox.Show("Ingrese el valor del activo para continuar");
+            }
+            else
+            {
                 if (treeView3.SelectedNode.Text.Equals("Capital"))
                 {
                     nombreCuentasCapital.Text = "Capital";
@@ -351,7 +380,8 @@ namespace SistemaContableOriginal
         //    row.Cells[1].Value = maskedTextBox1.Text;
         //    dataGridView1.Rows.Add(row);
         //}
-        public void Cambios() {
+        public void Cambios()
+        {
             nombreCuentas.Text = "Nombre de la cuenta";
             maskedTextBox1.Clear();
         }
@@ -370,7 +400,9 @@ namespace SistemaContableOriginal
                 btnActCapital.Enabled = false;
                 campoMontoCapital.Enabled = false;
 
-            } else if (activarActivos.Checked == false) {
+            }
+            else if (activarActivos.Checked == false)
+            {
                 treeView2.Enabled = true;
                 campoMontoPasivos.Enabled = true;
                 treeView3.Enabled = true;
@@ -391,7 +423,7 @@ namespace SistemaContableOriginal
                 treeView3.Enabled = false;
                 btnAdd.Enabled = false;
                 activarActivos.Enabled = false;
-                btnActCapital.Enabled=false;
+                btnActCapital.Enabled = false;
                 btnAddCap.Enabled = false;
                 campoMontoCapital.Enabled = false;
 
@@ -431,7 +463,8 @@ namespace SistemaContableOriginal
             {
                 MessageBox.Show("SU TOTAL ACTIVO ES IGUAL A SU TOTAL PASIVO, FELICIDADES");
             }
-            else {
+            else
+            {
                 MessageBox.Show("SU TOTAL ACTIVO NO IGUAL A SU TOTAL PASIVO, REVISE BIEN");
                 return;
             }
@@ -445,13 +478,14 @@ namespace SistemaContableOriginal
                 treeView1.Enabled = false;
                 maskedTextBox1.Enabled = false;
                 treeView2.Enabled = false;
-                btnAdd.Enabled=false;
-                btnActivarPasivos.Enabled=false;
+                btnAdd.Enabled = false;
+                btnActivarPasivos.Enabled = false;
                 activarActivos.Enabled = false;
                 btnAddPasivo.Enabled = false;
                 campoMontoPasivos.Enabled = false;
             }
-            else {
+            else
+            {
                 treeView1.Enabled = true;
                 maskedTextBox1.Enabled = true;
                 treeView2.Enabled = true;
@@ -461,7 +495,7 @@ namespace SistemaContableOriginal
                 btnAddPasivo.Enabled = true;
                 campoMontoPasivos.Enabled = true;
             }
-            
+
         }
     }
 }
